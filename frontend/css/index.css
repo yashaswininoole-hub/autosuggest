@@ -1,16 +1,18 @@
-h1{
+h1{/* applies ccolour for h1*/
     color:red;
 }
-#heading-2{
+#heading-2{/*
+    use # for id
+    applies code for this id */
     color: blue;
 }
-.heading{
+.heading{/* . is used for class*/
     color: blueviolet;
 }
 .para{
     border: 2px;
     border-color: brown;
-    border-style: solid;
+    border-style: solid;/* should be kept sice by default itss hidden*/
     padding: 20px;
     text-align: center;
 }
@@ -34,6 +36,11 @@ h1{
     text-shadow: 0.5px;
     font-size: 30px;
 }
-body{
-    margin: 0px;
+.card{
+    border: 2px solid black;
+    width: 300px;
+    margin-top: 200px;
+}
+.card img{
+    width: 100%;
 }
