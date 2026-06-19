@@ -7,3 +7,10 @@ h1{
 .heading{
     color: blueviolet;
 }
+.para{
+    border: 2px;
+    border-color: brown;
+    border-style: solid;
+    padding: 20px;
+    text-align: center;
+}
