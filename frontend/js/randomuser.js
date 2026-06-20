@@ -8,7 +8,7 @@ function randomuser(){
         var fullname=user.name.title+" "+user.name.first+" "+user.name.last;
         document.getElementById("user-img").src=user.picture.large;
 
-        document.getElementById("user-name").innerText=fullnameme;
+        document.getElementById("user-name").innerText=fullname;
         document.getElementById("user-gender").innerText=user.gender;
     })
     .catch(function(err){
