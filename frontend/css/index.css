@@ -44,3 +44,7 @@ h1{/* applies ccolour for h1*/
 .card img{
     width: 100%;
 }
+
+.card button{
+    margin-bottom: 20px;
+}

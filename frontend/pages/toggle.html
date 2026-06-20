@@ -11,16 +11,19 @@
         <center>
             <a href="/">home</a>
             <a href="/pages/card.html">card</a>
-            <a href="">toggle</a>
+            <a href="/pages/toggle.html">toggle</a>
             <a href="">random user</a>
         </center>
     </div>
     <center>
-    <div class="card"><img src="../images/john.png" alt="this is john">
-        <h2>John doe balm</h2>
-        <h3>male</h3>
-        <script src="js/index.js"></script><!--connects javascript-->
+    <div class="card">
+        <img id="user-img" src="../images/john.png" alt="this is john">
+        <h2 id="user-name">John doe balm</h2>
+        <h3 id="user-gender">male</h3>
+        <button onclick="toggle()">toggle</button>
     </div>
+    <script src="js/index.js"></script><!--connects javascript-->
+    <script src="..js/toggle.js"></script>
     <!--
     <button onclick="toggleimage()" >toggle</button>
     <script>
