@@ -34,13 +34,13 @@
     border: 2px;
     border-color: rgb(117, 117, 117);
     border-style: solid;
-    border-radius: 15px; 
-    align-items: center;
+    border-radius: 8px;
     /* padding-bottom: 3px;
     padding-top: 3px;
     padding-left: 3px;
     padding-right: 3px; */
     padding-left: 30px;
+    width: 300px;
 }
 
 .lens{
