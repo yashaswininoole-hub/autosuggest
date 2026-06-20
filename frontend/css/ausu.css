@@ -1,0 +1,23 @@
+.gear{
+
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    color: black;
+}
+
+.pill{
+    position: fixed;
+    top: 5px;
+    right: 5px;
+}
+
+.main-content{
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+.bullet{
+    color: green;
+}
