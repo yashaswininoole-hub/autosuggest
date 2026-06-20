@@ -21,3 +21,34 @@
 .bullet{
     color: green;
 }
+
+.bing{
+    color: blueviolet;
+}
+
+.tagline{
+    color:rgb(117, 117, 117);
+}
+
+.searchbar{
+    border: 2px;
+    border-color: rgb(117, 117, 117);
+    border-style: solid;
+    border-radius: 15px; 
+    align-items: center;
+    /* padding-bottom: 3px;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px; */
+    padding-left: 30px;
+}
+
+.lens{
+    position: relative;
+    left:10 px
+}
+
+.searcher{
+    outline: none;
+    border: none;
+}
